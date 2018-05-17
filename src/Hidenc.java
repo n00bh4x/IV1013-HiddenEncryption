@@ -439,7 +439,7 @@ public class Hidenc {
             System.out.println("Programmet avslutas");
             System.exit(0);
         }
-        if(plainText.length == 0) {
+        if(plainText.length == 1) {
             System.out.println("Filen " + fileName + " innehåller ingen data. Programmet avslutas");
             System.out.println("Programmet avslutas");
             System.exit(0);
